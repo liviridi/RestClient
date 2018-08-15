@@ -1,7 +1,3 @@
-/*
- *  HPE 2017
- *  Copyright (c) 2017 HPE
- */
 package com.liviridi.rest.core;
 
 import java.io.File;
