@@ -652,8 +652,6 @@ public class RestClient {
     /**
      * HTTP Method
      *
-     * @author sakuramori
-     * @version 2017-09-26 05:58:41
      */
     public static enum Method {
         DELETE, GET, HEAD, POST, PUT

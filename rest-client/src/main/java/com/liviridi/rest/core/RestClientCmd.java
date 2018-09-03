@@ -50,8 +50,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * REST通信クライアント
  *
- * @author  sakuramori
- * @version 2017-10-25 06:05:45
  */
 public class RestClientCmd {
 
@@ -778,8 +776,6 @@ public class RestClientCmd {
     /**
      * HTTPメソッド
      *
-     * @author  sakuramori
-     * @version 2017-09-26 05:58:41
      */
     public static enum Method {
         DELETE,
@@ -792,8 +788,6 @@ public class RestClientCmd {
     /**
      * コマンドオプション
      *
-     * @author  sakuramori
-     * @version 2017-10-26 09:45:26
      */
     public static enum Option {
         GET("--get", "--get: HTTP-GETメソッド"),
@@ -852,8 +846,6 @@ public class RestClientCmd {
     /**
      * FOSS文字列エンティティ
      *
-     * @author  sakuramori
-     * @version 2017-10-26 03:50:02
      */
     protected class FossStringEntity extends StringEntity {
 
@@ -898,8 +890,6 @@ public class RestClientCmd {
     /**
      * FOSSファイルエンティティ
      *
-     * @author  sakuramori
-     * @version 2017-10-26 03:50:02
      */
     protected class FossFileEntity extends FileEntity {
 
@@ -944,8 +934,6 @@ public class RestClientCmd {
     /**
      * HTTPリクエスト
      *
-     * @author  sakuramori
-     * @version 2017-10-25 08:48:30
      */
     protected class HttpRequest extends HttpEntityEnclosingRequestBase {
 
@@ -979,8 +967,6 @@ public class RestClientCmd {
     /**
      * HTTPレスポンス
      *
-     * @author  sakuramori
-     * @version 2017-09-27 05:30:42
      */
     public class Response {
 
@@ -1271,8 +1257,6 @@ public class RestClientCmd {
     /**
      * デフォルトX509トラスト管理
      *
-     * @author  sakuramori
-     * @version 2017-10-25 07:09:29
      */
     private static class DefaultX509TrustManager implements X509TrustManager {
 
@@ -1293,8 +1277,6 @@ public class RestClientCmd {
     /**
      * 任意ホスト名検証
      *
-     * @author  sakuramori
-     * @version 2017-10-25 07:11:05
      */
     private static class AnyHostnameVerifier implements HostnameVerifier {
         public boolean verify(String hostname, SSLSession session) {
